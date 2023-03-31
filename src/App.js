@@ -1,11 +1,14 @@
 import './App.css';
+import Header from './components/header/header';
+import Introduction from './components/introduction/introduction';
+import Background from './components/background/background';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Douglas Driving</p>
-      </header>
+      <Header />
+      <Introduction/>
+      <Background/>
     </div>
   );
 }
